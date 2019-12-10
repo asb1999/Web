@@ -1,0 +1,420 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .video-area {
+        height: 550px;
+    }
+    .overlay { 
+	  color:#fff;
+	  position:absolute;
+	  z-index:12;
+	  top:15%;
+	  left:0;
+	  width:100%;
+	  text-align:center;
+	}
+    .overlay h1{
+	    font-family: 'Lato', sans-serif;
+	    font-size: 3.25rem;
+	    font-style: normal;
+	    line-height: 1.2;
+	    font-weight: 700;
+	}
+	.h11{
+	    font-family: 'Lato', sans-serif;
+	    font-size: 5.25rem !important;
+	    font-style: normal;
+	    line-height: 1.2;
+	    font-weight: 700;
+	}
+	#computer{
+	  background-image: url('../img/macbook2.png');
+	  background-color: #ffff; /* Used if the image is unavailable */
+	  height: 600px; /* You must set a specified height */
+	  background-position: right; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: contain;
+	}
+	.go-btn{
+	height: 100px !important;
+    width: 240px !important;
+
+	}
+	.go-btn img{
+		height: 45px !important;
+		border-bottom: 20px !important;
+	}
+	.go-btn p{
+		font-size: 18px !important;
+		font-weight: 200 !important;
+	}
+	.go-btn:hover{
+		height: 150px !important;
+    	width: 240px !important;
+	    background-color: #2895be;
+	}
+	.laptop-home-area{
+		max-height: 400px !important;
+	    margin-right: -80% !important;
+	}
+	.screen-home-area{
+		max-height: 400px !important;
+	}
+	.cell-home-area{
+		max-height: 400px !important;
+	    margin-left: -90% !important;
+	}
+		.navbar-brand{
+		margin-right: 0px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .video-area {
+        height: 350px;
+    }
+        .topperslider{
+    	margin-top: 100px;
+    }
+    .overlay { 
+	  color:#fff;
+	  position:absolute;
+	  z-index:12;
+	  top:20%;
+	  left:0;
+	  width:100%;
+	  text-align:center;
+	}
+    .overlay h1{
+	    font-family: 'Lato', sans-serif;
+	    font-size: 2.25rem;
+	    font-style: normal;
+	    line-height: 1.2;
+	    font-weight: 700;
+	}
+	.h11{
+	    font-family: 'Lato', sans-serif;
+	    font-size: 4.25rem !important;
+	    font-style: normal;
+	    line-height: 1.2;
+	    font-weight: 700;
+	}
+	.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+	    max-width: 100%;
+	    height: auto;
+	    margin-top: 100px;
+	}
+	#computer{
+	  background-image: url('');
+	  background-color: #ffff; /* Used if the image is unavailable */
+	  height: 600px; /* You must set a specified height */
+	  background-position: right; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: contain;
+	}
+	.layer img {
+	    position: absolute;
+	    width: 55%;
+	    top: 55%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+
+	}
+	.BrandGo {
+	    max-height: 100px;
+	}
+	.services-img{
+		max-height: 300px;
+	}
+	.services-area {
+	    margin: auto;
+	    width: 100%;
+	    padding: 0px;
+	}
+	.services-subtitle {
+		font-size: 40px;
+		padding-left: 0px;
+	}
+	.go-btn{
+		height: 100px !important;
+	    width: 200px !important;
+
+	}
+	.go-btn img{
+		height: 45px !important;
+	}
+	.go-btn p{
+		font-size: 18px !important;
+		font-weight: 200 !important;
+	}
+	.go-btn:hover{
+		height: 150px !important;
+	    width: 200px !important;
+	    background-color: #2895be;
+	}
+
+	.laptop-home-area{
+	max-height: 300px !important;
+    margin-left: 0% !important;
+	}
+	.screen-home-area{
+		max-height: 300px !important;
+	}
+	.cell-home-area{
+	    max-height: 300px !important;
+	    margin-left: 0% !important;
+	}
+		.navbar-brand{
+		margin-right: 0px !important;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .topperslider{
+    	margin-top: 100px;
+    }
+    .title{
+		color: #333;
+		font-family: 'Poppins', sans-serif;
+	    font-size: 26px;
+	    line-height: 48px;
+	    margin: 0px;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	    font-weight: 900;
+	}
+	.IconFont {
+	    font-size: 24px;
+	    color: #2895be;
+	    font-family: 'Lato', sans-serif;
+	    font-weight: 600;
+	    padding-top: 10px;
+	}
+	.IconsWedo {
+	    padding-right: 0px;
+	    padding-left: 0px;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	}
+	#wrapper {
+	  position: relative;
+	  width: 100%;
+	  min-height: 200px;
+	  overflow: hidden;
+	}
+	#wrapper-simple {
+	  position: relative;
+	  width: 100%;
+	  min-height: 200px;
+	  overflow: hidden;
+	}
+
+	.layer {
+	  position: absolute;
+	  width: 100vw;
+	  min-height: 200px;
+	  overflow: hidden;
+	}
+
+	.layer .content-wrap {
+	  position: absolute;
+	  width: 100vw;
+	  min-height: 200px;
+	}
+
+	.layer .content-body {
+	  position: absolute;
+	  width: 25%;
+	  top: 50%;
+	  text-align: center;
+	  transform: translateY(-50%);
+	  color: #77226c;;
+	}
+	.layer .content-body-left {
+	  position: absolute;
+	  width: 25%;
+	  top: 50%;
+	  text-align: center;
+	  transform: translateY(-50%);
+	  color: #fff;
+	}
+
+	.layer .content-body-right {
+	  position: absolute;
+	  width: 25%;
+	  top: 50%;
+	  text-align: center;
+	  transform: translateY(-50%);
+	  color: #fff;
+	}
+
+	.layer img {
+	  position: absolute;
+	  width: 55%;
+	  top: 70%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+    .video-area {
+        border: 10px solid #fff;
+        border-radius: 20px;
+        height: 250px;
+    }
+    .video-area::after {
+        top: -10px;
+        left: -10px;
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+        border: 1px solid #f1f4f8;
+        z-index: 2;
+        border-radius: 20px;
+    }
+    .overlay { 
+	  color:#fff;
+	  position:absolute;
+	  z-index:12;
+	  top:26%;
+	  left:0;
+	  width:100%;
+	  text-align:center;
+	}
+    .overlay h1{
+	    font-family: 'Lato', sans-serif;
+	    font-size: 1.25rem;
+	    font-style: normal;
+	    line-height: 1.2;
+	    font-weight: 700;
+	}
+	.h11{
+	    font-family: 'Lato', sans-serif;
+	    font-size: 2rem !important;
+	    font-style: normal;
+	    line-height: 1.2;
+	    font-weight: 700;
+	}
+	.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+	    max-width: 100%;
+	    height: auto;
+	    margin-top: 100px;
+	}
+	#computer{
+	  background-image: url('');
+	  background-color: #ffff; /* Used if the image is unavailable */
+	  min-height: 600px; /* You must set a specified height */
+	  background-position: right; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: contain;
+	}
+	.BrandGo {
+	    max-height: 100px;
+	}
+	.hidden-md{
+    	display: none;
+	}
+	.device-block {
+	    color: #fff;
+	    height: 150px;
+	    padding-top: 15px;
+	}
+	.services-img{
+		max-height: 300px;
+	}
+	.services-area {
+	    margin: auto;
+	    width: 100%;
+	    padding: 0px;
+	}
+	.services-subtitle {
+		font-size: 40px;
+	}
+	.go-btn{
+		height: 100px !important;
+	    width: 200px !important;
+
+	}
+	.go-btn img{
+		height: 45px !important;
+	}
+	.go-btn p{
+		font-size: 18px !important;
+		font-weight: 200 !important;
+	}
+	.go-btn:hover{
+		height: 150px !important;
+	    width: 200px !important;
+	    background-color: #2895be;
+	}
+
+	.laptop-home-area{
+		max-height: 200px !important;
+	    margin-right: 0% !important;
+	}
+	.screen-home-area{
+		max-height: 200px !important;
+		margin-left: 0% !important;
+	}
+	.cell-home-area{
+		max-height: 200px !important;
+	    margin-left: 0% !important;
+	}
+	.about-area-margin{
+		margin-top:0px !important;
+		padding-top: 0px !important;
+	}
+	.navbar-brand{
+		margin-right: 0px !important;
+	}
+	.all-home-area{
+		max-height: 200px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.js-cookie-consent{
+		height: 120px !important;
+	}
+	.gradient-gray{
+	 	height: 150% !important;
+	}
+	.align-h h1{
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+	}
+	.align-h a{
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+	}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .wellcome-heading > h3 {
+        font-size: 284px;
+    }
+    .wellcome-heading > h2 {
+        font-size: 70px;
+    }
+    .welcome-thumb {
+        bottom: -109px;
+        width: 75%;
+    }
+    .wellcome-heading {
+        margin-bottom: 50px;
+    }
+    .wellcome-heading > h3 {
+        top: -139px;
+    }
+    .get-start-area .email {
+        max-width: 370px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .wellcome-heading > h3 {
+        font-size: 286px;
+    }
+    .get-start-area .email {
+        margin-bottom: 0;
+    }
+}
